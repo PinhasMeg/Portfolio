@@ -28,6 +28,51 @@ red-divider{
     
         
 }
+/*MENU*/
+#menu{
+    background-color: white;
+}
+#nav {
+    border: 2px solid red;
+	padding: 10px; 
+    margin: 0px;
+    text-align: center;
+    
+    
+}
+#nav li {
+    padding: 0.2em 1em;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 1px solid red;
+     
+    border-top-color: red;
+    color: red;
+       
+	display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+    margin: 0.4em; padding: 0;
+    
+    
+    
+}
+#nav li :hover{
+    transition: all 0.4s;
+    border-color: white;
+    border-left-color: black; 
+    border-top-color: black;
+    color: white; 
+    background-color: red;
+    display: inline-block;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+    color: red;
+    
+    
+    
+}
 /* ABOUT*/
 #about
 {
