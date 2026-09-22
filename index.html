@@ -42,7 +42,10 @@
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="wordmark" href="#accueil">Pinhas Meguideche</a>
+      <a class="brand" href="#accueil">
+        <img class="brand-avatar" src="images/pinhas-avatar.jpg" width="64" height="64" alt="Pinhas Meguideche">
+        <span class="wordmark">Pinhas Meguideche</span>
+      </a>
       <div class="header-tools">
         <div class="lang-switch lang-switch-desk" role="group" data-i18n-aria="lang" aria-label="Langue">
           <button type="button" class="lang-btn" data-set-lang="fr" aria-pressed="true">FR</button>
@@ -70,7 +73,11 @@
 
   <main id="contenu">
     <section id="accueil" class="hero">
-      <div class="wrap hero-inner reveal">
+      <div class="wrap hero-layout reveal">
+        <div class="hero-portrait">
+          <img src="images/pinhas-avatar.jpg" width="480" height="480" alt="Pinhas Meguideche" data-i18n-alt="hero.photoAlt">
+        </div>
+        <div class="hero-copy">
         <p class="kicker" data-i18n="hero.avail">Disponible pour un projet</p>
         <h1>
           <span class="desk-only" data-i18n-html="hero.titleDesk">Je construis des produits<br>qu’on utilise.</span>
@@ -90,6 +97,7 @@
           <li data-i18n="hero.f3">Fondateur d’OlimAid</li>
           <li data-i18n="hero.f4">Réponse sous 24 h</li>
         </ul>
+        </div>
       </div>
     </section>
 
@@ -269,6 +277,7 @@
           </li>
         </ol>
         <aside class="bio reveal">
+          <img class="bio-avatar" src="images/pinhas-avatar.jpg" width="96" height="96" alt="Pinhas Meguideche" data-i18n-alt="hero.photoAlt">
           <p class="bio-lead" data-i18n="method.bio">Ingénieur full-stack. Je construis des produits qu’on utilise — pas des maquettes.</p>
           <dl class="bio-facts">
             <div>

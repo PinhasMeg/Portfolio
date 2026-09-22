@@ -37,6 +37,7 @@
         f2: "FR · EN · HE",
         f3: "Fondateur d’OlimAid",
         f4: "Réponse sous 24 h",
+        photoAlt: "Pinhas Meguideche",
         proofLive: "produits live",
         proofReply: "pour répondre",
         caption: "Dernier livrable — ",
@@ -251,6 +252,7 @@
         f2: "FR · EN · HE",
         f3: "Founder of OlimAid",
         f4: "Reply within 24h",
+        photoAlt: "Pinhas Meguideche",
         proofLive: "live products",
         proofReply: "to reply",
         caption: "Latest delivery — ",
@@ -461,7 +463,8 @@
         f1: "מהנדס פול-סטאק",
         f2: "FR · EN · HE",
         f3: "מייסד OlimAid",
-        f4: "מענה תוך 24 שעות"
+        f4: "מענה תוך 24 שעות",
+        photoAlt: "Pinhas Meguideche"
       },
       work: {
         titleDesk: "עבודות נבחרות",
