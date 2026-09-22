@@ -14,6 +14,7 @@
         work: "Projets",
         services: "Services",
         method: "Méthode",
+        faq: "FAQ",
         contact: "Contact",
         talk: "Discuter",
         menu: "Menu",
@@ -23,15 +24,19 @@
       hero: {
         avail: "Disponible pour un projet",
         availMob: "Disponible",
-        titleDesk: "De l’idée au produit,<br><em>sans agence.</em>",
-        titleMob: "Idée → produit.",
-        leadDesk: "Sites, bots WhatsApp &amp; Telegram, automatisations. Je conçois, développe et mets en ligne — vous me parlez directement.",
+        titleDesk: "Je construis des produits<br>qu’on utilise.",
+        titleMob: "Des produits qu’on utilise.",
+        leadDesk: "Je conçois, développe et mets en ligne. Sites, bots WhatsApp &amp; Telegram, automatisations. Vous me parlez directement, en français, anglais ou hébreu.",
         leadMob: "Site, bot ou automatisation. On avance en direct.",
         pillSites: "Sites",
         pillBots: "Bots",
         pillAuto: "Automatisations",
-        cta: "Demander un devis",
-        work: "Voir les projets",
+        cta: "Discuter",
+        work: "Voir le travail",
+        f1: "Ingénieur full-stack",
+        f2: "FR · EN · HE",
+        f3: "Fondateur d’OlimAid",
+        f4: "Réponse sous 24 h",
         proofLive: "produits live",
         proofReply: "pour répondre",
         caption: "Dernier livrable — ",
@@ -40,11 +45,11 @@
       },
       work: {
         eyebrow: "Sélection",
-        titleDesk: "En ligne, et d’autres en cours.",
-        titleMob: "En ligne, et en cours",
-        leadDesk: "Cinq sites live. Ensuite : bots, automatisations et outils métier — le format que je livre, sans inventer de clients.",
+        titleDesk: "Travail sélectionné",
+        titleMob: "Travail sélectionné",
+        leadDesk: "Cinq produits en ligne. Bots, flux et outils métier se cadrent sur devis — sans inventer de noms.",
         leadMob: "5 sites live, plus bots et flux.",
-        open: "Ouvrir le projet",
+        open: "Ouvrir",
         aria: "Projets livrés",
         prev: "Projet précédent",
         next: "Projet suivant",
@@ -75,44 +80,70 @@
         r2: "Vitrine live — un message, un appel.",
         b2: "Vitrine",
         t3: "03 · Display",
-        p3: "Écran synagogue : les noms défilent au bon moment. Outil kiosque, en service.",
+        p3: "Écran synagogue : les noms défilent au bon moment. Outil métier, en service.",
         r3: "Produit métier, pas une vitrine.",
         b3: "Kiosque",
         t4: "04 · Commerce",
-        p4: "Boutique de pâtisserie cachère — panier FR / hébreu. Commande en ligne.",
+        p4: "Pâtisserie cachère — panier FR / hébreu, commande en ligne.",
         r4: "E-commerce live, deux langues.",
         b4: "Boutique",
         t5: "05 · Simulateur",
         p5: "Calculateur solaire : estimation, simulation d’investissement, capture de leads. HE / EN / FR.",
         r5: "Outil + leads, pas une page figée.",
-        b5: "Calculateur"
+        b5: "Calculateur",
+        k1: "Produit",
+        k2: "Association",
+        k3: "Kiosque",
+        k4: "Boutique",
+        k5: "Calculateur",
+        img1: "Accueil OlimAid : Guide Alya 2026, guides et outils IA.",
+        img2: "Accueil Dor Hadash : accompagnement d’alya francophone.",
+        img3: "Écran Beth-El : noms de défunts, bougies et date hébraïque.",
+        img4: "Accueil ShemTov : pâtisserie, commander maintenant.",
+        img5: "Accueil Solar Prime : 0 ₪ d’investissement et toits solaires."
       },
       offer: {
         eyebrow: "Offre",
-        title: "Ce que je livre.",
-        lead: "Du site vitrine au bot métier — un interlocuteur, un livrable.",
+        title: "Ce que je livre",
+        lead: "Du site qui convertit au bot qui répond. Un interlocuteur, un livrable.",
         h1: "SaaS &amp; plateformes",
         p1: "Espaces membres, outils métier, flux IA. Un produit que les gens utilisent.",
-        h2: "Sites vitrines",
-        p2: "Page claire, rapide, qui explique l’offre et convertit vers un appel.",
-        h3: "Applications web",
-        p3: "Interface soignée, backend solide, déploiement. Du brief à la mise en ligne.",
+        h2: "Sites",
+        p2: "Page claire, rapide, qui explique l’offre et mène à un appel.",
+        i2a: "Accueil et pages",
+        i2b: "Mobile",
+        i2c: "Formulaire / WhatsApp",
+        i2d: "Mise en ligne",
+        h3: "Produits & apps",
+        p3: "Espaces membres, outils métier, simulateurs. Un produit qu’on ouvre tous les jours.",
+        i3a: "Interface",
+        i3b: "Backend",
+        i3c: "Comptes et accès",
+        i3d: "Déploiement",
         h4: "CRM &amp; outils internes",
         p4: "Tableaux, formulaires, pipelines. Moins de tableurs, plus de process.",
         h5: "Bots WhatsApp &amp; Telegram",
-        p5: "FAQ, RDV, commandes, notifications. Un bot qui répond à votre place.",
+        p5: "FAQ, RDV, commandes, notifications. Le bot répond, vous gardez la main.",
+        i5a: "Scénarios",
+        i5b: "Notifications",
+        i5c: "Lien CRM / Sheets",
+        i5d: "Handoff humain",
         h6: "Automatisations",
-        p6: "Formulaires, CRM, e-mails, sheets, APIs. Des flux qui tournent sans vous.",
+        p6: "Formulaire → CRM → e-mail / Sheets. Les données avancent sans vous.",
+        i6a: "Collecte",
+        i6b: "Routage",
+        i6c: "E-mails",
+        i6d: "APIs",
         stack: "Compétences"
       },
       method: {
         eyebrow: "Méthode",
-        title: "Simple, direct, livré.",
-        lead: "Pas de comité, pas de junior qui reprend le brief. Un seul interlocuteur.",
+        title: "Un interlocuteur. Un livrable.",
+        lead: "Pas de comité. Pas de junior qui reprend le brief. Design, code et mise en ligne — la même personne.",
         s1: "Cadrer",
         p1: "Objectif, délai, périmètre. On sait ce qui sort, et quand.",
         s2: "Construire",
-        p2: "Design, code, itérations. Vous voyez avancer, pas un PowerPoint.",
+        p2: "Design, code, itérations. Vous voyez avancer — pas un PowerPoint.",
         s3: "Mettre en ligne",
         p3: "Déploiement, suivi, ajustements. Le produit vit après le jour J.",
         profile: "Profil",
@@ -126,7 +157,7 @@
       contact: {
         eyebrow: "Contact",
         title: "Parlons de votre projet.",
-        lead: "E-mail, téléphone ou WhatsApp. Le formulaire m’arrive directement, et vous recevez un accusé de réception.",
+        lead: "Le formulaire m’arrive directement. Vous recevez un accusé de réception. Dites-moi l’objectif, le délai, ce que vous voulez obtenir.",
         phone: "Téléphone",
         wa: "Écrire maintenant",
         formTitle: "Demander un devis",
@@ -158,6 +189,26 @@
         label: "Écrire sur WhatsApp",
         text: "Bonjour Pinhas, j’ai un projet (site, bot ou automatisation) et j’aimerais en discuter avec vous."
       },
+      who: {
+        title: "Pour qui",
+        h1: "Commerce & TPE",
+        p1: "Boutique, prise de RDV, un site qui convertit vers un appel ou une commande.",
+        h2: "Associations",
+        p2: "Contenu clair, contact simple, outils du quotidien pour une communauté.",
+        h3: "Outils internes",
+        p3: "Moins de tableurs. Un flux ou un CRM que l’équipe ouvre vraiment."
+      },
+      faq: {
+        title: "Questions fréquentes",
+        q1: "Combien de temps pour un projet ?",
+        a1: "Ça dépend du périmètre. Un site clair : quelques semaines. Un produit ou un bot : on le cadre d’abord, puis un délai réaliste.",
+        q2: "Vous travaillez en français ?",
+        a2: "Oui. Français, anglais et hébreu — y compris des sites en hébreu quand il faut.",
+        q3: "Pourquoi si peu de projets listés ?",
+        a3: "Je n’invente pas de clients. Ici : le travail déjà en ligne. Le reste se discute en privé.",
+        q4: "Comment on commence ?",
+        a4: "Un message — formulaire, e-mail ou WhatsApp. On cadre. Devis. On construit."
+      },
       page404: {
         title: "Page introuvable — Pinhas Meguideche",
         eyebrow: "Erreur 404",
@@ -177,6 +228,7 @@
         work: "Work",
         services: "Services",
         method: "Method",
+        faq: "FAQ",
         contact: "Contact",
         talk: "Let’s talk",
         menu: "Menu",
@@ -186,15 +238,19 @@
       hero: {
         avail: "Available for a project",
         availMob: "Available",
-        titleDesk: "From idea to product,<br><em>no agency.</em>",
-        titleMob: "Idea → product.",
-        leadDesk: "Websites, WhatsApp &amp; Telegram bots, automations. I design, build and ship — you talk to me directly.",
+        titleDesk: "I build products<br>people actually use.",
+        titleMob: "Products people use.",
+        leadDesk: "I design, build and ship. Websites, WhatsApp &amp; Telegram bots, automations. You talk to me directly, in French, English or Hebrew.",
         leadMob: "Site, bot or automation. We work directly.",
         pillSites: "Sites",
         pillBots: "Bots",
         pillAuto: "Automations",
-        cta: "Request a quote",
-        work: "View work",
+        cta: "Let’s talk",
+        work: "See the work",
+        f1: "Full-stack engineer",
+        f2: "FR · EN · HE",
+        f3: "Founder of OlimAid",
+        f4: "Reply within 24h",
         proofLive: "live products",
         proofReply: "to reply",
         caption: "Latest delivery — ",
@@ -203,11 +259,11 @@
       },
       work: {
         eyebrow: "Selected",
-        titleDesk: "Live, with more underway.",
-        titleMob: "Live, and more coming",
-        leadDesk: "Five live sites. Then bots, automations and internal tools — the format I ship, no invented clients.",
+        titleDesk: "Selected work",
+        titleMob: "Selected work",
+        leadDesk: "Five live products. Bots, flows and internal tools are scoped on request — no invented names.",
         leadMob: "5 live sites, plus bots and flows.",
-        open: "Open project",
+        open: "Open",
         aria: "Shipped work",
         prev: "Previous project",
         next: "Next project",
@@ -238,44 +294,70 @@
         r2: "Live brochure — one message, one call.",
         b2: "Brochure",
         t3: "03 · Display",
-        p3: "Synagogue screen: names appear at the right time. Kiosk tool, in service.",
+        p3: "Synagogue screen: names appear at the right time. A business tool, in service.",
         r3: "A business tool, not a brochure.",
         b3: "Kiosk",
         t4: "04 · Commerce",
-        p4: "Kosher pastry shop — FR / Hebrew cart. Orders online.",
+        p4: "Kosher pastry shop — FR / Hebrew cart, orders online.",
         r4: "Live shop, two languages.",
         b4: "Shop",
         t5: "05 · Simulator",
         p5: "Solar calculator: estimate, investment simulation, lead capture. HE / EN / FR.",
         r5: "A tool plus leads, not a static page.",
-        b5: "Calculator"
+        b5: "Calculator",
+        k1: "Product",
+        k2: "Nonprofit",
+        k3: "Kiosk",
+        k4: "Shop",
+        k5: "Calculator",
+        img1: "OlimAid home: Aliyah Guide 2026, guides and AI tools.",
+        img2: "Dor Hadash home: francophone aliyah support.",
+        img3: "Beth-El screen: names of the deceased, candles and Hebrew date.",
+        img4: "ShemTov home: pastry shop, Hebrew shop UI.",
+        img5: "Solar Prime home: 0 investment and solar roofs."
       },
       offer: {
         eyebrow: "Offer",
-        title: "What I ship.",
-        lead: "From a brochure site to a business bot — one contact, one deliverable.",
+        title: "What I ship",
+        lead: "From a site that converts to a bot that answers. One contact, one deliverable.",
         h1: "SaaS &amp; platforms",
         p1: "Member areas, business tools, AI flows. A product people actually use.",
-        h2: "Brochure sites",
-        p2: "A clear, fast page that explains the offer and converts to a call.",
-        h3: "Web apps",
-        p3: "Polished UI, solid backend, deployment. From brief to live.",
+        h2: "Sites",
+        p2: "A clear, fast page that explains the offer and leads to a call.",
+        i2a: "Home and pages",
+        i2b: "Mobile",
+        i2c: "Form / WhatsApp",
+        i2d: "Go live",
+        h3: "Products & apps",
+        p3: "Member areas, internal tools, simulators. A product people open every day.",
+        i3a: "Interface",
+        i3b: "Backend",
+        i3c: "Accounts and access",
+        i3d: "Deploy",
         h4: "CRM &amp; internal tools",
         p4: "Tables, forms, pipelines. Fewer spreadsheets, more process.",
         h5: "WhatsApp &amp; Telegram bots",
-        p5: "FAQ, bookings, orders, alerts. A bot that answers for you.",
+        p5: "FAQ, bookings, orders, alerts. The bot answers. You stay in control.",
+        i5a: "Flows",
+        i5b: "Alerts",
+        i5c: "CRM / Sheets link",
+        i5d: "Human handoff",
         h6: "Automations",
-        p6: "Forms, CRM, email, sheets, APIs. Flows that run without you.",
+        p6: "Form → CRM → email / Sheets. Data moves without you.",
+        i6a: "Capture",
+        i6b: "Routing",
+        i6c: "Email",
+        i6d: "APIs",
         stack: "Stack"
       },
       method: {
         eyebrow: "Method",
-        title: "Simple, direct, shipped.",
-        lead: "No committee. No junior redoing the brief. One person.",
+        title: "One contact. One deliverable.",
+        lead: "No committee. No junior redoing the brief. Design, code and launch — same person.",
         s1: "Scope",
         p1: "Goal, timeline, perimeter. You know what ships, and when.",
         s2: "Build",
-        p2: "Design, code, iterations. You see progress, not a slide deck.",
+        p2: "Design, code, iterations. You see it move — not a slide deck.",
         s3: "Launch",
         p3: "Deploy, monitor, adjust. The product lives after day one.",
         profile: "Profile",
@@ -289,7 +371,7 @@
       contact: {
         eyebrow: "Contact",
         title: "Let’s talk about your project.",
-        lead: "Email, phone or WhatsApp. The form reaches me directly, and you get a receipt.",
+        lead: "The form reaches me directly. You get a receipt. Tell me the goal, the timeline, what you want out of it.",
         phone: "Phone",
         wa: "Message now",
         formTitle: "Request a quote",
@@ -321,12 +403,195 @@
         label: "Message on WhatsApp",
         text: "Hi Pinhas, I have a project (site, bot or automation) and I’d like to talk."
       },
+      who: {
+        title: "Who it’s for",
+        h1: "Shops & small business",
+        p1: "Storefront, bookings, a site that converts to a call or an order.",
+        h2: "Nonprofits",
+        p2: "Clear content, simple contact, everyday tools for a community.",
+        h3: "Internal tools",
+        p3: "Fewer spreadsheets. A flow or CRM the team actually opens."
+      },
+      faq: {
+        title: "FAQ",
+        q1: "How long does a project take?",
+        a1: "It depends on scope. A clear site: a few weeks. A product or bot: we scope it first, then a realistic timeline.",
+        q2: "Do you work in English?",
+        a2: "Yes. French, English and Hebrew — including Hebrew sites when needed.",
+        q3: "Why so few projects listed?",
+        a3: "I don’t invent clients. What’s here is already live. The rest stays private.",
+        q4: "How do we start?",
+        a4: "A message — form, email or WhatsApp. We scope. Quote. We build."
+      },
       page404: {
         title: "Page not found — Pinhas Meguideche",
         eyebrow: "Error 404",
         h1: "This page doesn’t exist.",
         lead: "The link is wrong or the page was moved.",
         back: "Back to home"
+      }
+    },
+    he: {
+      meta: {
+        title: "Pinhas Meguideche — מוצרים דיגיטליים, בוטים ואוטומציות",
+        description: "מהנדס פול-סטאק. אתרים, בוטים ל-WhatsApp ולטלגרם, אוטומציות — מהרעיון ועד העלייה לאוויר."
+      },
+      skip: "דלג לתוכן",
+      lang: "שפה",
+      nav: {
+        work: "פרויקטים",
+        services: "שירותים",
+        method: "שיטה",
+        faq: "שאלות",
+        contact: "צור קשר",
+        talk: "לשיחה",
+        menu: "תפריט",
+        close: "סגור",
+        label: "ניווט ראשי"
+      },
+      hero: {
+        avail: "זמין לפרויקט",
+        availMob: "זמין",
+        titleDesk: "אני בונה מוצרים<br>שמשתמשים בהם.",
+        titleMob: "מוצרים שמשתמשים בהם.",
+        leadDesk: "אני מעצב, מפתח ומעלה לאוויר. אתרים, בוטים ל-WhatsApp ולטלגרם, אוטומציות. מדברים איתי ישירות — בעברית, בצרפתית או באנגלית.",
+        leadMob: "אתר, בוט או אוטומציה. עובדים ישירות.",
+        cta: "לשיחה",
+        work: "לעבודה",
+        f1: "מהנדס פול-סטאק",
+        f2: "FR · EN · HE",
+        f3: "מייסד OlimAid",
+        f4: "מענה תוך 24 שעות"
+      },
+      work: {
+        titleDesk: "עבודות נבחרות",
+        titleMob: "עבודות נבחרות",
+        leadDesk: "חמישה מוצרים באוויר. בוטים, תהליכים וכלים פנימיים מגדירים בהצעת מחיר — בלי שמות מומצאים.",
+        open: "פתיחה",
+        aria: "עבודות שפורסמו",
+        prev: "הפרויקט הקודם",
+        next: "הפרויקט הבא",
+        project: "פרויקט",
+        p1: "פלטפורמת עלייה: מדריכים, כלי AI, פורום. תוכנן ופותח לבד, מאפס ועד ייצור. צרפתית / אנגלית.",
+        p2: "חממת עלייה: דיור, ערים, תעסוקה. אתר עמותה, באוויר.",
+        p3: "מסך בית כנסת: השמות מופיעים בזמן הנכון. כלי מקצועי, פעיל.",
+        p4: "קונדיטוריה כשרה — סל צרפתית / עברית, הזמנה אונליין.",
+        p5: "מחשבון סולארי: הערכה, סימולציית השקעה, לידים. עברית / אנגלית / צרפתית.",
+        k1: "מוצר",
+        k2: "עמותה",
+        k3: "קיוסק",
+        k4: "חנות",
+        k5: "מחשבון",
+        img1: "עמוד הבית של OlimAid: מדריך עלייה 2026, מדריכים וכלי AI.",
+        img2: "עמוד הבית של דור חדש: ליווי עלייה דובר צרפתית.",
+        img3: "מסך בית-אל: שמות נפטרים, נרות ותאריך עברי.",
+        img4: "עמוד הבית של ShemTov: קונדיטוריה, ממשק עברי.",
+        img5: "עמוד הבית של Solar Prime: 0 השקעה וגגות סולאריים."
+      },
+      offer: {
+        title: "מה אני מוסר",
+        lead: "מאתר שממיר ועד בוט שעונה. איש קשר אחד, תוצר אחד.",
+        h2: "אתרים",
+        p2: "עמוד ברור ומהיר, שמסביר את ההצעה ומוביל לשיחה.",
+        i2a: "דף הבית ועמודים",
+        i2b: "מובייל",
+        i2c: "טופס / WhatsApp",
+        i2d: "עלייה לאוויר",
+        h3: "מוצרים ואפליקציות",
+        p3: "אזורי חברים, כלים פנימיים, סימולטורים. מוצר שפותחים כל יום.",
+        i3a: "ממשק",
+        i3b: "בקאנד",
+        i3c: "חשבונות והרשאות",
+        i3d: "פריסה",
+        h5: "בוטים ל-WhatsApp ולטלגרם",
+        p5: "שאלות נפוצות, תורים, הזמנות, התראות. הבוט עונה, השליטה אצלכם.",
+        i5a: "תרחישים",
+        i5b: "התראות",
+        i5c: "חיבור CRM / Sheets",
+        i5d: "העברה לאדם",
+        h6: "אוטומציות",
+        p6: "טופס → CRM → מייל / Sheets. הנתונים זזים בליכם.",
+        i6a: "איסוף",
+        i6b: "ניתוב",
+        i6c: "מיילים",
+        i6d: "APIs"
+      },
+      method: {
+        title: "איש קשר אחד. תוצר אחד.",
+        lead: "בלי ועדה. בלי ג׳וניור שמחליף את הבריף. עיצוב, קוד והעלאה — אותו אדם.",
+        s1: "לאפיין",
+        p1: "מטרה, לוח זמנים, היקף. יודעים מה יוצא, ומתי.",
+        s2: "לבנות",
+        p2: "עיצוב, קוד, איטרציות. רואים התקדמות — לא מצגת.",
+        s3: "להעלות",
+        p3: "פריסה, מעקב, כיוונון. המוצר חי אחרי היום הראשון.",
+        bio: "מהנדס פול-סטאק. אני בונה מוצרים שמשתמשים בהם — לא מוקאפים.",
+        product: "מוצר",
+        founder: "מייסד <a href=\"https://olimaid.com\" rel=\"noopener noreferrer\" target=\"_blank\">OlimAid</a>",
+        eng: "הנדסה",
+        edu: "השכלה",
+        eduTitle: "הנדסת תוכנה"
+      },
+      contact: {
+        title: "נדבר על הפרויקט.",
+        lead: "הטופס מגיע אליי ישירות. מקבלים אישור קבלה. כתבו מטרה, לוח זמנים, מה רוצים להשיג.",
+        phone: "טלפון",
+        wa: "לכתוב עכשיו",
+        formTitle: "לבקש הצעת מחיר",
+        kicker: "בלי התחייבות · מענה תוך 24 שעות",
+        name: "שם",
+        email: "אימייל",
+        tel: "טלפון",
+        type: "סוג הפרויקט",
+        message: "הודעה",
+        placeholder: "הקשר, לוח זמנים, מה רוצים להשיג.",
+        send: "שליחה",
+        sending: "שולח…",
+        sent: "נשלח",
+        doneTitle: "הבקשה התקבלה.",
+        doneBody: "סיכום יצא לאימייל שלכם. אחזור בהקדם.",
+        error: "לא ניתן לשלוח. כתבו אליי: Pinhas.meguideche@gmail.com",
+        types: [
+          "SaaS / פלטפורמה",
+          "אתר תדמית",
+          "אפליקציית ווב",
+          "בוט WhatsApp",
+          "בוט טלגרם",
+          "אוטומציות",
+          "CRM / כלי פנימי",
+          "אחר"
+        ]
+      },
+      wa: {
+        label: "לכתוב בוואטסאפ",
+        text: "שלום פנחס, יש לי פרויקט (אתר, בוט או אוטומציה) ואשמח לדבר."
+      },
+      who: {
+        title: "למי זה",
+        h1: "עסקים וחנויות",
+        p1: "חנות, קביעת תורים, אתר שממיר לשיחה או להזמנה.",
+        h2: "עמותות",
+        p2: "תוכן ברור, יצירת קשר פשוטה, כלים יומיומיים לקהילה.",
+        h3: "כלים פנימיים",
+        p3: "פחות אקסל. תהליך או CRM שהצוות באמת פותח."
+      },
+      faq: {
+        title: "שאלות נפוצות",
+        q1: "כמה זמן לוקח פרויקט?",
+        a1: "תלוי בהיקף. אתר ברור: כמה שבועות. מוצר או בוט: קודם מאפיינים, אחר כך לוח זמנים ריאלי.",
+        q2: "עובדים בעברית?",
+        a2: "כן. עברית, צרפתית ואנגלית — ואתרים בעברית כשצריך.",
+        q3: "למה כל כך מעט פרויקטים?",
+        a3: "אני לא ממציא לקוחות. כאן: מה שכבר באוויר. השאר בשיחה פרטית.",
+        q4: "איך מתחילים?",
+        a4: "הודעה — טופס, אימייל או וואטסאפ. מאפיינים. הצעת מחיר. בונים."
+      },
+      page404: {
+        title: "העמוד לא נמצא — Pinhas Meguideche",
+        eyebrow: "שגיאה 404",
+        h1: "העמוד הזה לא קיים.",
+        lead: "הקישור שגוי או שהעמוד הועבר.",
+        back: "חזרה לדף הבית"
       }
     }
   };
@@ -341,9 +606,9 @@
     try {
       var params = new URLSearchParams(window.location.search);
       var q = params.get("lang");
-      if (q === "en" || q === "fr") return q;
+      if (q === "en" || q === "fr" || q === "he") return q;
       var stored = localStorage.getItem(KEY);
-      if (stored === "en" || stored === "fr") return stored;
+      if (stored === "en" || stored === "fr" || stored === "he") return stored;
     } catch (e) {}
     return "fr";
   }
@@ -355,12 +620,24 @@
   }
 
   function apply(lang) {
-    if (lang !== "en") lang = "fr";
-    var t = STR[lang];
+    if (lang !== "en" && lang !== "he") lang = "fr";
+    var t = STR[lang] || STR.fr;
     document.documentElement.lang = lang;
+    document.documentElement.dir = lang === "he" ? "rtl" : "ltr";
     document.documentElement.setAttribute("data-lang", lang);
-    document.documentElement.classList.remove("i18n-pending");
     saveLang(lang);
+
+    var shotKey = lang === "fr" ? "fr" : "en";
+    document.querySelectorAll("[data-src-fr]").forEach(function (el) {
+      var next = el.getAttribute("data-src-" + shotKey) || el.getAttribute("data-src-fr");
+      if (next && el.getAttribute("src") !== next) el.setAttribute("src", next);
+    });
+    document.querySelectorAll("[data-href-fr]").forEach(function (el) {
+      var next = el.getAttribute("data-href-" + shotKey) || el.getAttribute("data-href-fr");
+      if (next) el.setAttribute("href", next);
+    });
+
+    document.documentElement.classList.remove("i18n-pending");
 
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var value = lookup(t, el.getAttribute("data-i18n"));
@@ -393,7 +670,7 @@
     var ogt = document.querySelector('meta[property="og:title"]');
     if (ogt && t.meta && t.meta.title && !is404) ogt.setAttribute("content", t.meta.title);
     var ogl = document.querySelector('meta[property="og:locale"]');
-    if (ogl) ogl.setAttribute("content", lang === "en" ? "en_US" : "fr_FR");
+    if (ogl) ogl.setAttribute("content", lang === "en" ? "en_US" : lang === "he" ? "he_IL" : "fr_FR");
 
     var wa = WA_BASE + encodeURIComponent(t.wa.text);
     document.querySelectorAll('a[href*="wa.me"]').forEach(function (el) {
@@ -460,6 +737,27 @@
         fields.message,
         "",
         "Talk soon,",
+        "Pinhas Meguideche",
+        "Pinhas.meguideche@gmail.com",
+        "+972 58 688 7253"
+      ].join("\n");
+    }
+    if (lang === "he") {
+      return [
+        "שלום " + fields.nom + ",",
+        "",
+        "תודה שפנית. קיבלתי את הבקשה ואחזור אליך בהקדם.",
+        "",
+        "סיכום ההודעה:",
+        "• שם: " + fields.nom,
+        "• אימייל: " + fields.email,
+        "• טלפון: " + fields.tel,
+        "• סוג הפרויקט: " + fields.type,
+        "",
+        "ההודעה:",
+        fields.message,
+        "",
+        "נתראה,",
         "Pinhas Meguideche",
         "Pinhas.meguideche@gmail.com",
         "+972 58 688 7253"

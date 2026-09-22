@@ -63,7 +63,7 @@
   }
 
   var navLinks = document.querySelectorAll('.nav-list a[href^="#"]');
-  var spySections = ["projets", "services", "methode", "contact"]
+  var spySections = ["projets", "services", "methode", "faq", "contact"]
     .map(function (id) { return document.getElementById(id); })
     .filter(Boolean);
 
@@ -189,8 +189,8 @@
         Telephone: tel,
         Projet: type,
         Message: message,
-        Langue: lang === "en" ? "English" : "Français",
-        _subject: (lang === "en" ? "Quote — " : "Devis — ") + type + " — " + nom,
+        Langue: lang === "en" ? "English" : lang === "he" ? "עברית" : "Français",
+        _subject: (lang === "en" ? "Quote — " : lang === "he" ? "הצעת מחיר — " : "Devis — ") + type + " — " + nom,
         _template: "table",
         _captcha: "false",
         _autoresponse: recap

@@ -5,21 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page introuvable — Pinhas Meguideche</title>
   <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#070A12">
+  <meta name="theme-color" content="#101826">
   <meta name="color-scheme" content="dark">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500&family=Heebo:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script>
     document.documentElement.classList.add("js");
     try {
       var q = new URLSearchParams(location.search).get("lang");
       var stored = localStorage.getItem("pm-lang");
-      var lang = q === "en" || q === "fr" ? q : stored;
-      if (lang === "en") {
-        document.documentElement.setAttribute("data-lang", "en");
+      var lang = q === "en" || q === "fr" || q === "he" ? q : stored;
+      if (lang === "en" || lang === "he") {
+        document.documentElement.setAttribute("data-lang", lang);
+        if (lang === "he") document.documentElement.setAttribute("dir", "rtl");
         document.documentElement.classList.add("i18n-pending");
       }
     } catch (e) {}
@@ -29,27 +30,26 @@
   </script>
 </head>
 <body data-page="404">
-  <div class="grain" aria-hidden="true"></div>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="wordmark" href="index.html">
-        <span class="mark" aria-hidden="true">P</span>
-        Pinhas <span class="wordmark-last">Meguideche</span>
-      </a>
+      <a class="wordmark" href="index.html">Pinhas Meguideche</a>
       <div class="header-tools">
-        <div class="lang-switch" role="group" data-i18n-aria="lang" aria-label="Langue">
+        <div class="lang-switch lang-switch-desk" role="group" data-i18n-aria="lang" aria-label="Langue">
           <button type="button" class="lang-btn" data-set-lang="fr" aria-pressed="true">FR</button>
           <button type="button" class="lang-btn" data-set-lang="en" aria-pressed="false">EN</button>
+          <button type="button" class="lang-btn" data-set-lang="he" aria-pressed="false">HE</button>
         </div>
       </div>
     </div>
   </header>
-  <main class="hero" style="min-height: 80vh;">
-    <div class="wrap">
-      <p class="eyebrow" data-i18n="page404.eyebrow">Erreur 404</p>
+  <main class="hero">
+    <div class="wrap hero-inner">
+      <p class="kicker" data-i18n="page404.eyebrow">Erreur 404</p>
       <h1 data-i18n="page404.h1">Cette page n’existe pas.</h1>
       <p class="lead" data-i18n="page404.lead">Le lien est faux ou la page a été déplacée.</p>
-      <p><a class="btn" href="index.html" data-i18n="page404.back">Retour à l’accueil</a></p>
+      <div class="hero-actions">
+        <a class="btn" href="index.html" data-i18n="page404.back">Retour à l’accueil</a>
+      </div>
     </div>
   </main>
   <script src="js/i18n.js" defer></script>
