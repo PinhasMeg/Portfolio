@@ -640,8 +640,44 @@ h3 {
 
 @media (min-width: 800px) {
   .who-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2.5rem;
+  }
+}
+
+/* Quotes */
+
+.quotes-grid {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.quote {
+  margin: 0;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--line);
+}
+
+.quote blockquote {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+.quote figcaption {
+  margin-top: 0.9rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+@media (min-width: 800px) {
+  .quotes-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 2.5rem;
   }
 }
 
@@ -974,7 +1010,8 @@ html[dir="rtl"] body {
 }
 
 html[dir="rtl"] h1,
-html[dir="rtl"] h2 {
+html[dir="rtl"] h2,
+html[dir="rtl"] .quote blockquote {
   font-family: "Frank Ruhl Libre", Georgia, serif;
   letter-spacing: -0.01em;
 }
